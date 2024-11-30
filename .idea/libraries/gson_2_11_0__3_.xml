@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gson-2.11.0 (3)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/virtualcafe/helpers/gson-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
