@@ -63,8 +63,7 @@ public class Order {
         this.coffeeInTray += coffeeQuantity;
     }
 
-    // Getters to retrieve the current quantities of tea and coffee in various stages.
-
+    // Getters to retrieve the current quantities of tea and coffee in waiting stages.
     public int getTeaInWaitingArea() {
         return teaInWaitingArea;
     }
@@ -73,21 +72,6 @@ public class Order {
         return coffeeInWaitingArea;
     }
 
-    public int getTeaInBrewing() {
-        return teaInBrewing;
-    }
-
-    public int getCoffeeInBrewing() {
-        return coffeeInBrewing;
-    }
-
-    public int getTeaInTray() {
-        return teaInTray;
-    }
-
-    public int getCoffeeInTray() {
-        return coffeeInTray;
-    }
 
     /**
      * Checks if the order is ready for collection.
